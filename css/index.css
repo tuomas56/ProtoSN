@@ -1,0 +1,62 @@
+.pointer-arrow {
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 7px;
+    font-size: 20px;
+    background: none;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: calc(70% - 27px);
+    left: calc(50% - 27px);
+}
+.pointer-arrow:hover {
+    color: red;
+    border: 1px solid red;
+}
+.logo {
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 450px);
+}
+body {
+    background: url(../images/background.jpg);
+}
+.loginbox {
+    height: 80%;
+    position: absolute;
+    top: 140%;
+    box-shadow: 0px 0px 5px #000;
+    width: 100%;
+    background: #FFF;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+}
+.floatleft {
+    position: absolute;
+    right: 5%;
+}
+.floatright {
+    position: absolute;
+    left: 5%;
+}
+.panel {
+    position: absolute;
+    top: 5%;
+    width: 40%;
+    height: 80%;
+}
+.panel-header {
+    background: url(../images/background.jpg);
+}
+.login-header {
+    background-position: center;
+}
+.register-header {
+    background-position: left;
+}
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
