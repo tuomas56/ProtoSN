@@ -1,3 +1,9 @@
+$.fn.preload = function () {
+    this.each(function () {
+        $('<img/>')[0].src = this;
+    });
+}
+
 $(function () {
     $('.slidea').click(function () {
         $('html, body').animate({
@@ -21,4 +27,5 @@ $(function () {
         $(".b1").removeClass("b1").addClass("b3");
         $(".b2").removeClass("b2").addClass("b3");
     });
+    $(["../images/background.jpg", "../images/background2.jpg", "../images/background3.jpg"]).preload();
 });
