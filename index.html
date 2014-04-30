@@ -14,15 +14,32 @@
     <script src="js/login.js"></script>
 </head>
 
-<body class="metro">
+<body class="metro b3">
+    <div class="element">
+        <a class="dropdown-toggle no-marker" href="#">
+            <i class="icon-cog place-right bg-white fg-black" style="position: fixed; right: 0px; padding: 10px; box-shadow: 5px 0px 5px #000; border-bottom-left-radius: 25%"></i>
+        </a>
+        <ul class="dropdown-menu " data-role="dropdown" style="position:fixed; top:36px; right: 0px;">
+            <li>
+                <a id="cs">Color Shards</a>
+            </li>
+            <li>
+                <a id="ac">Abstract Chaos</a>
+            </li>
+
+            <li>
+                <a id="cg">Crystal Glass</a>
+            </li>
+        </ul>
+    </div>
     <img src="images/logo.png" class="logo"></img>
-    <a href="#loginbox">
+    <a href="#loginbox" class="slidea">
         <i class="icon-arrow-down pointer-arrow">
         </i>
     </a>
     <div class="loginbox" id="loginbox">
         <div class="panel login floatleft">
-            <div class="panel-header login-header fg-white center">
+            <div class="panel-header login-header b3 fg-white center">
                 Login
             </div>
             <div class="panel-content center">
@@ -46,7 +63,7 @@
             </div>
         </div>
         <div class="panel register floatright">
-            <div class="panel-header register-header  center fg-white">
+            <div class="panel-header register-header b3 center fg-white">
                 Register
             </div>
             <div class="panel-content center">
